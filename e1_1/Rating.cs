@@ -10,6 +10,11 @@ namespace e1_1
     {
         SortedSet<Student> students = new SortedSet<Student>();
 
+        public List<Student> GetStudents()
+        {
+            return students.ToList();
+        }
+
         public void Add(Student student)
         {
             students.Add(student);

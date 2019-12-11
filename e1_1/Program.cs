@@ -23,6 +23,7 @@ namespace e1_1
             rating.Add(new Student("Богданов", 94));
             rating.Add(new Student("Петров", 85));
             rating.Print();
+            UnitTest.RatingTest_AddOneStudent();
             Console.ReadKey();
         }
     }
